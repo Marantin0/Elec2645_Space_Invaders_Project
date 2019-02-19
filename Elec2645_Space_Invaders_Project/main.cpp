@@ -26,7 +26,7 @@ enum DirectionName {
     UNKNOWN
 };
 
-// struct for Joystick
+// structfor Joystick
 typedef struct JoyStick Joystick;
 struct JoyStick {
     float x;    // current x value
@@ -136,6 +136,9 @@ void startUp(){
     lcd.printString("Georgiev",10,4);
 }
     
+void Menu(){
+    
+}
 void Game(){  //Function containing all parameter and funtion of actual game
     
     player(playerX,playerY);
